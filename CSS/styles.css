@@ -18,6 +18,19 @@ a {
   text-decoration: none;
 }
 
+.heading{ 
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    color: #000000;
+  }
+  50% {
+    color: #52AD9C;
+  }
+}
+
 .email {
   display: inline-block;
   font-weight: bold;
