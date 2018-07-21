@@ -1,0 +1,59 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  font-family: Open Sans;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.email {
+  display: inline-block;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.social {
+  display: block;
+  padding-left: 60px;
+  padding-top: 10px;
+}
+
+.emailid:hover {
+  color: #52AD9C;
+}
+
+.fa-github:hover {
+  color: #52AD9C;
+}
+
+.fa-file-alt:hover {
+  color: #52AD9C;
+}
+
+.fa-linkedin-in:hover {
+  color: #52AD9C;
+}
+
+.fa-twitter:hover {
+  color: #52AD9C;
+}
+
+.fa-user:hover {
+  color: #52AD9C;
+}
+
+.fa-code:hover {
+  color: #52AD9C;
+}
