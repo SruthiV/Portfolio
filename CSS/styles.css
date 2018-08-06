@@ -36,6 +36,7 @@ img {
 
 .heading{ 
   animation: pulse 3s infinite;
+  margin-bottom: 0px;
 }
 
 @keyframes pulse {
