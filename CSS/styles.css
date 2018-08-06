@@ -18,6 +18,18 @@ a {
   text-decoration: none;
 }
 
+#avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  border: 3px solid #52AD9C;
+  display: block;
+}
+
 .heading{ 
   animation: pulse 3s infinite;
 }
