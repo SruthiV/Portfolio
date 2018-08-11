@@ -3,14 +3,13 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.container {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  position: fixed;
-  align-items: center;
-  justify-content: center;
-  font-family: Open Sans;
+div {
+  display: block;
+  text-align: center;
+}
+
+.main {
+margin-top: 180px;
 }
 
 a {
@@ -22,19 +21,19 @@ a {
   width: 80px;
   height: 80px;
   border-radius: 50%;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-bottom-right-radius: 50%;
-    border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
   display: block;
 }
 
 img {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
 
-.heading{ 
+.heading {
   animation: pulse 3s infinite;
   margin-bottom: 0px;
 }
@@ -51,12 +50,10 @@ img {
 .email {
   display: inline-block;
   font-weight: bold;
-  padding-left: 20px;
 }
 
 .social {
   display: block;
-  padding-left: 80px;
   padding-top: 10px;
 }
 
@@ -80,3 +77,11 @@ img {
   color: #52AD9C;
 }
 
+.footer-main {
+padding: 5px;
+margin: 155px 0 0;
+color: #aaa;
+text-align: center;
+position: relative;
+display: block;
+}
