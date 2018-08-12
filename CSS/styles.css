@@ -1,6 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 300;
 }
 
 div {
@@ -8,8 +8,13 @@ div {
   text-align: center;
 }
 
+.header-main {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
 .main {
-margin-top: 180px;
+  margin-top: 180px;
 }
 
 a {
@@ -78,10 +83,12 @@ img {
 }
 
 .footer-main {
-padding: 5px;
-margin: 155px 0 0;
-color: #aaa;
-text-align: center;
-position: relative;
-display: block;
+  padding: 5px;
+  margin: 155px 0 0;
+  color: #aaa;
+  text-align: center;
+  position: relative;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
 }
